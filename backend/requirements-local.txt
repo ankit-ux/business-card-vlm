@@ -1,0 +1,7 @@
+# Extra deps ONLY needed if you switch VLM_PROVIDER=local
+# (i.e. running Qwen2.5-VL weights yourself on a GPU box).
+# NOT required / NOT installable comfortably on AWS free-tier CPU instances.
+torch==2.4.1
+transformers==4.46.0
+accelerate==0.34.2
+qwen-vl-utils==0.0.8
